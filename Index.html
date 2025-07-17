@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="min-h-screen bg-gray-950 text-gray-50 antialiased">
+        <header class="header">
+            <h1 class="header-title">iPhone Hub</h1>
+            <nav class="header-nav">
+                <a class="header-link" href="#">Home</a>
+                <a class="header-link" href="#">About</a>
+                <a class="header-link" href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="text-center mb-10">
+                <h2 class="main-title">Your Ultimate iPhone Customization Hub</h2>
+                <p class="main-description">
+                    Explore a curated collection of tools, resources, and utilities to personalize and enhance your iPhone
+                    experience. Sleek, modern, and intuitive.
+                </p>
+            </div>
+
+            <div class="tabs-container">
+                <div class="tabs-list">
+                    <button class="tab-trigger active" data-tab="ipas">IPAs</button>
+                    <button class="tab-trigger" data-tab="vpn-for-ios">VPN for iOS</button>
+                    <button class="tab-trigger" data-tab="jailbreak-tweaks">Jailbreak Tweaks</button>
+                </div>
+
+                <div id="tab-content-ipas" class="tab-content active">
+                    <!-- IPA content will be rendered here by JavaScript -->
+                </div>
+
+                <div id="tab-content-vpn-for-ios" class="tab-content">
+                    <!-- VPN content will be rendered here by JavaScript -->
+                </div>
+
+                <div id="tab-content-jailbreak-tweaks" class="tab-content">
+                    <!-- Jailbreak Tweaks content will be rendered here by JavaScript -->
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            © <span id="current-year"></span> iPhone Hub. All rights reserved.
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
